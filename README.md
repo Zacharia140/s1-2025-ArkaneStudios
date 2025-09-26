@@ -20,7 +20,7 @@ Projet scolaire - Reproduction de la page d'accueil de Rockstar Games avec perso
 - Samih  
 - Mehdi  
 - Ayoub  
-- Zackaria  
+- Zacharia  
     
 
 [Nom du projet](https://login.github.io/projet/)
@@ -35,4 +35,4 @@ KEBIR Ayoub : [Nom](mailto:akebir2@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
 # Présentation du projet
 
-...... (5/6 lignes )
+Ce site a pour but de présenter Arkane Studios, un studio de développement français fondé en 1999 et spécialisé dans la création de jeux vidéo immersifs. Connu pour des titres marquants comme Dishonored, Prey ou Deathloop, Arkane s’est imposé comme une référence internationale grâce à ses univers originaux, sa narration riche et la liberté d’action offerte aux joueurs. À travers ce projet, nous mettons en lumière son histoire, ses réalisations et son influence dans l’industrie du jeu vidéo.
