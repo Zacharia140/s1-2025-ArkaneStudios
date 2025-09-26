@@ -230,6 +230,20 @@ body {
   }
 }
 
+.text-zone {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #E0F7FF;
+  max-width: 90%;
+  text-align: justify;
+}
+
+.text-zone p {
+  margin: 0;
+  padding: 10px 0;
+}
+
 .fade-in {
   animation: fadeEffect 1s ease forwards;
 }
@@ -465,5 +479,3 @@ body {
     right: auto;
   }
 }
-
-
