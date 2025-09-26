@@ -1,7 +1,7 @@
 # Site web Arkane Studio
 
 
-[Arkane Studio](https://Zacharia140.github.io/s1-2025-ArkaneStudios/)
+[Lien vers notre site de présentation d'Arkane Studio](https://Zacharia140.github.io/s1-2025-ArkaneStudios/)
 
 ## Membres du groupe :
 
