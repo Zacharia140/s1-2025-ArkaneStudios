@@ -5,10 +5,10 @@
 
 ## Membres du groupe :
 
-MEHIDI Zacharia (référent du groupe) :  [Zacharia Mehidi](mailto:zacharia.mehidi@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-OZ Samih : [Samih Oz](mailto:samih.oz@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
-MENASRIA Mehdi : [Mehdi Menasria](mailto:mehdi.menasria@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-KEBIR Ayoub : [Ayoub Kebir](mailto:ayoub.kebir@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+[Zacharia Mehidi (référent du groupe)](mailto:zacharia.mehidi@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+[Samih Oz](mailto:samih.oz@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
+[Mehdi Menasria](mailto:mehdi.menasria@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+[Ayoub Kebir](mailto:ayoub.kebir@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 
 
 # Présentation du projet
