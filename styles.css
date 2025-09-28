@@ -479,3 +479,92 @@ body {
     right: auto;
   }
 }
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #00425C;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #00CFFF;
+}
+
+.login-container label {
+  display: block;
+  margin: 15px 0 5px;
+  text-align: left;
+  color: #E0F7FF;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-login, .btn-register {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-login {
+  background: #0099DB;
+  color: white;
+}
+
+.btn-login:hover {
+  background: #00CFFF;
+}
+
+.btn-register {
+  background: #E0F7FF;
+  color: #00425C;
+}
+
+.btn-register:hover {
+  background: #B3EFFF;
+}
+
+.btn-retour {
+  background: #002b33;
+  color: #b3e9ff;
+  border-radius: 5px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.search-bar input {
+  border: none;
+  padding: 8px 12px;
+  outline: none;
+  flex: 1;
+}
+
+.search-bar button {
+  background: #0099DB;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+}
+.search-bar button:hover {
+  background: #00CFFF;
+}
