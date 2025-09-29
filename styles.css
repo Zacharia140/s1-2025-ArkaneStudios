@@ -568,3 +568,231 @@ body {
 .search-bar button:hover {
   background: #00CFFF;
 }
+.intro{
+  text-align: center;
+}
+
+.about-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  color: #E0F7FF;
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  color: #00CFFF;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #00425C;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  color: #00CFFF;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #E0F7FF;
+}
+
+.btn-retour {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 20px;
+  background: #0099DB;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-retour:hover {
+  background: #00CFFF;
+  transform: scale(1.05);
+}
+/* ----- HERO spécifique savoir plus ----- */
+.hero-savoir {
+  background: url("arkanetest.jpg") center/cover no-repeat;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-savoir .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  color: #E0F7FF;
+}
+
+.hero-savoir h1 {
+  font-size: 2.5rem;
+  color: #00CFFF;
+}
+
+.hero-savoir p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #B3EFFF;
+}
+
+/* ----- pas touche à ça cest le css de la  page à savoir ----- */
+.about-section {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #00CFFF;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #E0F7FF;
+  margin-bottom: 50px;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: linear-gradient(145deg, #003a50, #005d7a);
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 207, 255, 0.4);
+}
+
+.card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #00CFFF;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+.btn-retour {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 12px 25px;
+  background: #0099DB;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-retour:hover {
+  background: #00CFFF;
+  transform: scale(1.08);
+}
+/* ----- jusqu'a là  ----- */
+/* ----- Les equipes et comment ça je fais que du html je retiens mdrrr----- */
+.team {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+  color: #E0F7FF;
+}
+
+.team h1 {
+  font-size: 2.5rem;
+  color: #00CFFF;
+  margin-bottom: 15px;
+}
+
+.team-intro {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #B3EFFF;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.member {
+  background: linear-gradient(145deg, #00425C, #006B8F);
+  border-radius: 15px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,207,255,0.5);
+}
+
+.member .avatar {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.member h2 {
+  color: #00CFFF;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.member p {
+  font-size: 1rem;
+  color: #E0F7FF;
+}
+/* ----- jusqu'a là  ----- */
