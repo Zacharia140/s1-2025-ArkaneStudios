@@ -1,124 +1,119 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Équipe - Arkane studio</title>
-    <base href="./" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/png" href="LogoSae.png" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="logo">
-        <a href="index.html"><img src="LogoSae.png" alt="Logo" /></a>
-        <span class="arkane-text">ARKANE STUDIOS</span>
-      </div>
-      <nav class="navbar">
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="jeux.html">Jeux</a></li>
-          <li><a href="histoire.html">Histoire</a></li>
-          <li><a href="economie.html">Économie</a></li>
-          <li><a href="equipe.html">Équipe</a></li>
-        </ul>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Équipe - Arkane studio</title>
+  <base href="./" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="LogoSae.png" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <a href="index.html"><img src="LogoSae.png" alt="Logo" /></a>
+      <span class="arkane-text">ARKANE STUDIOS</span>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="jeux.html">Jeux</a></li>
+        <li><a href="histoire.html">Histoire</a></li>
+        <li><a href="economie.html">Économie</a></li>
+        <li><a href="equipe.html" class="active">Équipe</a></li>
+      </ul>
+    </nav>
 
-      <div class="header-actions">
-        <a
-          href="https://www.arkane-studios.com/fr"
-          target="_blank"
-          class="btn-launcher"
-        >
-          Arkane Studios
-        </a>
+    <div class="header-actions">
+      <a href="https://www.arkane-studios.com/fr" target="_blank" class="btn-launcher">
+        Arkane Studios
+      </a>
       <div class="search-bar">
         <input type="text" id="searchInput" placeholder="Rechercher une page...">
         <button id="searchBtn">🔍</button>
       </div>
-
       <span class="icon"><a href="connexion.html">👤</a></span>
-      </div>
-    </header>
+    </div>
+  </header>
 
-    <main class="team">
-      <h1>Notre équipe</h1>
-      <p>Ce site a été réalisé dans le cadre de la SAÉ 05-06.</p>
-      <div class="team-members">
-        <div class="member">
-          <h2>Samih</h2>
-          <p>Responsable HTML</p>
-        </div>
-        <div class="member">
-          <h2>Mehdi</h2>
-          <p>CSS & design</p>
-        </div>
-        <div class="member">
-          <h2>Ayoub</h2>
-          <p>JavaScript & interactions</p>
-        </div>
-        <div class="member">
-          <h2>Zacharia</h2>
-          <p>Organisation & GitHub</p>
-        </div>
-      </div>
-    </main>
+  <!-- SECTION ÉQUIPE -->
+  <main class="team">
+    <h1>Notre équipe</h1>
+    <p class="team-intro">
+      Ce site a été réalisé dans le cadre de la SAÉ 05-06 par une équipe motivée et complémentaire.
+    </p>
 
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-students">
-          <h4>Étudiants</h4>
-          <p>
-            Zacharia MEHIDI (référent) • Mehdi MENASRIA • Ayoub KEBIR • Samih OZ
-          </p>
-        </div>
-
-        <div class="footer-links">
-          <h4>Navigation</h4>
-          <ul>
-            <li><a href="index.html">🏠 Accueil</a></li>
-            <li><a href="jeux.html">🎮 Jeux</a></li>
-            <li><a href="histoire.html">📰 Histoire</a></li>
-            <li><a href="economie.html">🪙 Économie</a></li>
-            <li><a href="equipe.html">👥 Équipe</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-contact">
-          <h4>Contact</h4>
-          <ul>
-            <li>
-              <a href="https://mail-edu.univ-fcomte.fr/#1" target="_blank">
-                zacharia.mehidi@edu.univ-fcompte.fr (référent)
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer-social">
-          <h4>Créateur de la page</h4>
-          <p>Mehdi MENASRIA</p>
-        </div>
+    <div class="team-members">
+      <div class="member">
+        <div class="avatar">👨‍💻</div>
+        <h2>Samih</h2>
+        <p>Responsable HTML</p>
       </div>
 
-      <div
-        style="
-          text-align: center;
-          margin-top: 30px;
-          opacity: 0.6;
-          font-size: 14px;
-        "
-      >
-        © 2025 Arkane Studio. Tous droits réservés.
+      <div class="member">
+        <div class="avatar">🎨</div>
+        <h2>Mehdi</h2>
+        <p>CSS & Design</p>
       </div>
-    </footer>
 
-    <script
-      src="https://kit.fontawesome.com/your-kit-id.js"
-      crossorigin="anonymous"
-    ></script>
+      <div class="member">
+        <div class="avatar">⚡</div>
+        <h2>Ayoub</h2>
+        <p>JavaScript & Interactions</p>
+      </div>
 
-    <script src="script.js"></script>
-  </body>
+      <div class="member">
+        <div class="avatar">📂</div>
+        <h2>Zackaria</h2>
+        <p>Organisation & GitHub</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-students">
+        <h4>Étudiants</h4>
+        <p>
+          Zacharia MEHIDI (référent) • Mehdi MENASRIA • Ayoub KEBIR • Samih OZ
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">🏠 Accueil</a></li>
+          <li><a href="jeux.html">🎮 Jeux</a></li>
+          <li><a href="histoire.html">📰 Histoire</a></li>
+          <li><a href="economie.html">🪙 Économie</a></li>
+          <li><a href="equipe.html">👥 Équipe</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li>
+            <a href="mailto:zacharia.mehidi@edu.univ-fcompte.fr">
+              zacharia.mehidi@edu.univ-fcompte.fr (référent)
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Créateur de la page</h4>
+        <p>Mehdi MENASRIA et SAMIH OZ</p>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 30px; opacity: 0.6; font-size: 14px;">
+      © 2025 Arkane Studio. Tous droits réservés.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
-
