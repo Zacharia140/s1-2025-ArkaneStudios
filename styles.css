@@ -868,16 +868,7 @@ body {
   }
 }
 
-.navbar li:last-child {
-  display: none;
-}
 
-
-@media (max-width: 600px) {
-  .navbar li:last-child {
-    display: block;
-  }
-}
 
 
 
