@@ -796,3 +796,68 @@ body {
   color: #E0F7FF;
 }
 /* ----- jusqu'a là  ----- */
+/* Bouton burger */
+.burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  margin-left: 15px;
+}
+
+.burger span {
+  width: 25px;
+  height: 3px;
+  background: #E0F7FF;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Animation croix */
+.burger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.burger.active span:nth-child(2) {
+  opacity: 0;
+}
+.burger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Menu mobile centré */
+@media (max-width: 600px) {
+  .burger {
+    display: flex;
+  }
+
+  .navbar {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background: linear-gradient(90deg, #00425C, #007A9C);
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    gap: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    border-radius: 12px;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar li a {
+    font-size: 18px;
+    display: block;
+  }
+}
+
