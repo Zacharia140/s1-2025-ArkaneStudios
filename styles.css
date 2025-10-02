@@ -867,6 +867,33 @@ body {
     display: block;
   }
 }
+.btn-connexion-desktop {
+  background: #0099DB;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-connexion-desktop:hover {
+  background: #00CFFF;
+}
+
+.connexion-mobile {
+  display: none;
+}
+@media (max-width: 600px) {
+  .btn-connexion-desktop {
+    display: none;
+  }
+
+  .connexion-mobile {
+    display: block;
+  }
+}
+
 
 
 
