@@ -813,7 +813,7 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Animation croix */
+
 .burger.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -824,7 +824,6 @@ body {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-/* Menu mobile centré */
 @media (max-width: 600px) {
   .burger {
     display: flex;
@@ -871,5 +870,6 @@ body {
     display: block;
   }
 }
+
 
 
