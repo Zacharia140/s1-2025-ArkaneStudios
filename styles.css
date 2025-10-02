@@ -61,17 +61,6 @@ body {
   align-items: center;
   gap: 15px;
 }
-.btn-launcher {
-  background: #0099DB;
-  color: white;
-  border: none;
-  padding: 10px 18px;
-  border-radius: 25px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: all 0.3s ease;
-  text-decoration: none;
-}
 .btn-launcher:hover {
   background: #00CFFF;
   transform: scale(1.05);
@@ -893,6 +882,7 @@ body {
     display: block;
   }
 }
+
 
 
 
